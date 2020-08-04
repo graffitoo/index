@@ -124,7 +124,7 @@ body {
 }
 .header {
     font-family: Raleway;
-    background-image: url(../bg.jpeg);
+    background-image: url(../bg.jpg);
     text-align: center;
     height: 100vh;
     background-position: center;
@@ -168,7 +168,7 @@ body {
     padding-top: 05.5%;
 }
 .col-lg-6 {
-    background-image: url(../123.jpeg);
+    background-image: url(../123.jpg);
     height: 60vh;
 }
 .service-cntnt {
