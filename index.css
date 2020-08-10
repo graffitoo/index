@@ -1,11 +1,10 @@
 body {
     padding: 0%;
     margin: 0%;
-    background-color: transparent;
 }
 
 /* .bg {
-    background-image: url(../background.jpg);
+    background-color: slategrey;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -79,14 +78,14 @@ body {
     background-color: #9999cc;
   }
  .bg-dark {
-   background-color: rgba(37, 77, 77, 0.4);
-   font-family: Raleway;
+   background-color: rgba(37, 77, 77, 0.856) !important;
+   font-family: 'Raleway', sans-serif;
+   /* font-weight: 500; */
  }
  .page-footer {
    text-align: center !important;
    background-color: rgb(159, 221, 221);
- }
-
+}
 .social{
   text-decoration: none;
   color: rgb(0, 29, 29);
@@ -94,152 +93,44 @@ body {
 .social:hover{
   color: rgb(2, 161, 161);
 }
-.overlay {
-    font-family: Raleway;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-.overlay h1{
-	font-size: 1300%;
-	font-family:  Raleway;
-    background-color: rgba(1, 97, 97, 0.349);
-    color: #b0bdca4f;
-}
-
-.myBtn {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    padding: 24px 48px;
-    color: #fff;
-    border: 1px solid #fff;
-    transform: translate(-50%,-50%);
-    outline: none;
-    font-size: 320%;
-}
-.header {
-    font-family: Raleway;
-    background-image: url(bg.jpg);
-    text-align: center;
-    height: 100vh;
+.bg1 {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../gallery.jpeg);
+    /* height: 100vh; */
     background-position: center;
     background-size: cover;
 }
 .row {
-    margin: 0%;
-}
-.content {
-    background-color: rgb(0 29 29);
-    color: white;
     text-align: center;
-    font-family: 'Raleway';
-    padding: 28%;
-    font-size: 130%;
+    margin-right: 0%;
 }
-.content1 {
-    background-color: rgb(0 29 29);
-    color: white;
-    text-align: center;
-    font-family: 'Raleway';
-    padding: 10% 10%;
-    font-size: 130%;
+.carousel {
+    padding-top: 2%;
 }
-.line {
-    height: 20vh;
-    border-left: 1px solid rgb(255, 255, 255);
-    color: black;
-    float: right;
-    padding-left: 20xp;
-}
-.col-lg-4 {
-    padding-right: 0%;
-}
-.col-lg-8 {
-    padding-left: 0%;
-}
-.service {
-    background-color:rgb(0, 17, 17) ;
-    height: 80vh;
-    padding-top: 05.5%;
-}
-.col-lg-6 {
-    background-image: url(123.jpg);
-    height: 60vh;
-}
-.service-cntnt {
-    color: white;
-    font-family: Raleway;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 04%;
-    font-weight: bolder;
-}
-.lavish {
-    text-align: center;
-    background-color: rgb(0 29 29);
-    color: white;
-    font-family: Raleway;
-    height: 24.9vh;
-    border: 1px white;
-    padding: 24px;
-}
-
-.lavish h2 {
-	padding: 20px 10px;
-	border: 1px solid white;
-	font-weight: 700;
-}
-.col-lg-10  {
-    text-align: center;
-    background-color:rgb(1, 97, 97);
-    margin-left: 8%;
-    height: 20vh;
-    color: white;
-    font-family: Raleway;
-}
-.col-lg-10 h2 {
-    padding-top: 5%;
-}
-
 @media only screen and (max-width: 600px) {
-    .intro {
-        font-size: 70%;
-        font-family: Raleway;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        border: 1px white;
-    }
-    .overlay {
+    .painting {
         display: none;
     }
-    .col-lg-4 {
-        padding-right: 4%;
+    .d-block {
+        height: 2%;
+        width: 100%;
+        padding-right: 33%;
+        /* float: left; */
+        padding-bottom: 110%;
+        padding-top: 4%;
     }
-    .col-lg-8 {
-        padding-left: 4%;
+    .paint {
+      width: 117%;
     }
-    .line {
-        display: none;
+    .paint1 {
+      width: 106%;
     }
-    .lavish {
-        height: 44.2vh;
+    .paint2 {
+      width: 104%;
     }
-    .service {
-        background-color:rgb(0, 17, 17) ;
-        height: 64.9vh;
+    .bg1 {
+      height: 40%;
     }
-    .service-cntnt {
-        color: white;
-        text-align: center;
-        padding-top: 20%;
-    }
-    .col-lg-10  {
-        margin-left: 0%;
-        padding-top: 5%;
+    .carousel {
+      height: 94%;
     }
 }
